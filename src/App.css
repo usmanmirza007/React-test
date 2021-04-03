@@ -1,38 +1,214 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.header {
+  width: 100%;
+  height: 100vh;
+  background: url("./images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  background: #1f2235;
+  top: 0;
+
+}
+
+.navbarContainer {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* header */
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.navbarLeftLogo img {
+  width: 110px;
+}
+
+.navbarRight {
+  display: flex;
+  list-style-type: none;
+}
+.navbarRight li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0 15px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* grid */
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col_6 {
+  width: 50%;
+}
+
+.col_4 {
+  width: 33.3333%;
+}
+
+/* header */
+
+.headerContent {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  color: #fff;
+}
+
+.headerUl {
+  list-style-type: none;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.headerUl li {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #ff4a57;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center; 
+  display: flex;
+  margin: 0 10px;
+}
+.headerUl li:first-child {
+  margin: 0 ;
+}
+
+.headerSection h1 {
+  font-size: 57px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.headerSection p {
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 40px;
+  margin-bottom: 50px;
+}
+
+.btn {
+  outline: none;
+  border: none;
+  color: #fff;
+  padding: 13px 12px;
+  text-decoration: none;
+}
+
+.btn-outline {
+  border: 2px solid #ff4a57;
+  border-radius: 50px;
+  padding: 13px 40px;
+}
+
+.btn-smart {
+  background: #ff4a57;
+  border-radius: 50px;
+  padding: 13px 40px;
+}
+
+.play {
+  padding-top: 10px;
+  font-size: 25px !important;
+}
+
+.bannerImg {
+  padding: 0 30px;
+  margin-top: 150px;
+}
+
+/* services */
+
+.services {
+  background: #1f2235;
+  padding: 100px 0;
+  color: #fff;
+}
+
+.comman {
+  width: 33.3333%;
+  margin: 20px auto;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.heading {
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: #ff4a57;
+  font-size: 16px;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mainHeading {
+  font-size: 32px;
+  margin-bottom: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.mainContent {
+  font-size: 16px;
+  color: #dfdfdf;
 }
 
-.App-link {
-  color: #61dafb;
+.commanBorder {
+  background: #ff4a57;
+  height: 3px;
+  width: 100px;
+  margin: 30px auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.servicesBox {
+  background: #23263a;
+  padding: 40px;
+  color: #fff;
+  margin: 20px;
 }
+
+.commanIcons {
+  font-size: 40px;
+  margin-bottom: 15px;
+  color: #ff4a57;
+}
+
+.servicesBoxHeader {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.servicesBoxPara {
+  font-size: 14px;
+  color: #dfdfdf;
+}
+
+
+
+
